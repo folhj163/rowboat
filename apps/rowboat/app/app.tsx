@@ -31,7 +31,7 @@ export function App() {
                     {(isLoading || !user) && <Spinner size="sm" />}
                     {user && <div className="flex items-center gap-2">
                         <Spinner size="sm" />
-                        <div className="text-sm text-gray-400">Welcome, {user.name}</div>
+                        <div className="text-sm text-gray-400">欢迎, {user.name}</div>
                     </div>}
                 </div>
             </div>
